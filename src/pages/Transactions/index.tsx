@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { TrasactionsContext } from "../../contexts/TransactionsContext";
+import { TransactionsContext } from "../../contexts/TransactionsContext";
 import { SearchForm } from "./components/SearchForm";
 import {
   PriceHighlight,
@@ -11,7 +11,7 @@ import {
 import { dateFormatter, priceFormatter } from "../../utils/formatter";
 
 export function Transactions() {
-  const { transactions } = useContext(TrasactionsContext);
+  const { transactions } = useContext(TransactionsContext);
 
   return (
     <div>
