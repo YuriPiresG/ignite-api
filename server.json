@@ -39,6 +39,22 @@
       "category": "Entretenimento",
       "price": 50000,
       "createdAt": "2023-09-24T19:35:23.335Z"
+    },
+    {
+      "description": "Desenvolvimento UI",
+      "category": "Venda",
+      "type": "income",
+      "price": 10000,
+      "createdAt": "2023-10-02T12:17:24.708Z",
+      "id": 6
+    },
+    {
+      "description": "Arrumar o PC",
+      "category": "PC",
+      "type": "outcome",
+      "price": 56000,
+      "createdAt": "2023-10-02T12:32:14.603Z",
+      "id": 7
     }
   ]
 }
